@@ -6,7 +6,7 @@ var main = function() {
 
     //showing the share menu when share is clicked
     $('.share').on('click', event => {
-        $(event.currentTarget).next('.share-menu').toggle();
+        $(event.currentTarget).next().toggle();
     })
 
     //turning notification bell icons to yellow
