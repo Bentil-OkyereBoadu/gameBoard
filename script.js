@@ -1,6 +1,6 @@
 var main = function() {
     $('.more-btn').on('click', event => {
-      $('.more-menu').toggle();
+      $(event.currentTarget).find('.more-menu').toggle();
     });
 
   };
