@@ -11,7 +11,7 @@ var main = function() {
 
     //turning notification bell icons to yellow
     $('.notification').on('click', event => {
-        $(event.currentTarget).addClass('.active');
+        $(event.currentTarget).addClass('active');
     });
 
     $()
